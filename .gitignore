@@ -1,0 +1,51 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# file dataset
+Bike-sharing-dataset/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Test, coverage, and build artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+dist/
+build/
+*.egg-info/
+
+# Data science-generated files
+*.pkl
+*.pickle
+*.joblib
+*.parquet
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
