@@ -15,7 +15,7 @@ ENV/
 !.env.example
 
 # file dataset
-Bike-sharing-dataset/
+Bike-sharing-dataset/*
 
 # Jupyter Notebook
 .ipynb_checkpoints/
